@@ -3,10 +3,10 @@ section .data
    msg db "Bienvenido!! a continuacion multiplicaremos dos numeros enteros.", 0xA,0xD 
    len equ $- msg
    
-   msg1 db "Ingrese un numero del 1 al 9: ", 0xA,0xD 
+   msg1 db "Ingrese un numero del 1 al 4: ", 0xA,0xD 
    len1 equ $- msg1 
 
-   msg2 db "Ingrese otro numero del 1 al 9: ", 0xA,0xD 
+   msg2 db "Ingrese otro numero del 1 al 3: ", 0xA,0xD 
    len2 equ $- msg2 
 
    msg3 db "El resultado de la multiplicacion es: "
